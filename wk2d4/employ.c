@@ -10,13 +10,13 @@ struct employee{
 
 void Display(struct employee e){
       printf("Output\nName: %s",e.name);
-      printf("\SSN: %d",e.SSN);
+      printf("SSN: %d",e.SSN);
 
-      printf("\age: %d",e.age);
+      printf("age: %d",e.age);
 
-      printf("\gender: %d",e.gender);
-      printf("\adepartment: %d",e.department);
-      printf("\salary: %d",e.rsalary);
+      printf("gender: %d",e.gender);
+      printf("department: %d",e.department);
+      printf("salary: %d",e.rsalary);
 }
 int main(){
     struct employee emp;
