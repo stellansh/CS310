@@ -4,5 +4,5 @@ int main(){
 	int dig;
 	int arr[20];
 	printf("give me 20 digits:");
-	scanf("%d",&dig);
+	scanf("%d",&digs);
 	printf(arr[n]);`

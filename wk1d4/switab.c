@@ -1,14 +1,17 @@
 #include <stdio.d>
 int main(){
-	char x;
+
+	char ch;
 	int a,b,c;
-	switch((x=getchar())!= EOF){
+	while((ch=getchar())!= EOF){
+             switch(c)
 		case '\t':
-			a++;
+			a++; 
+break
 		case '\n':
 			b++;
 		case ' ':
-			c++;
+			d++;
 		default:
 			printf("empty");
 	}
